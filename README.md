@@ -62,11 +62,11 @@ Using:
 
 ## _🧠 Hypothesis Testing_
 
-### RCBD
+### _RCBD_
 - **H₀:** AI usage has no significant impact on audit effectiveness.
 - **H₁:** AI usage significantly affects audit effectiveness.
 
-### Factorial Design
+### _Factorial Design_
 - **Main Effect (AI):** H₀ — No effect of AI usage  
 - **Main Effect (Workload):** H₀ — No effect of workload  
 - **Interaction Effect:** H₀ — No interaction between AI and workload  
