@@ -11,20 +11,20 @@ To statistically assess:
 - The **interaction between AI and employee workload** on audit effectiveness.
 
 Using:
-- ✅ _**RCBD**_ to control for firm-level differences.
-- ✅ _**Factorial Design**_ to study main effects and interactions.
+- _**RCBD**_ to control for firm-level differences.
+- _**Factorial Design**_ to study main effects and interactions.
 
 ---
 
 ## _🔬 Experimental Designs Used_
 
-### 🔷 Randomized Complete Block Design (RCBD)
+### _Randomized Complete Block Design (RCBD)_
 - **Factor (Treatment):** AI Usage (Yes / No)  
 - **Blocking Factor:** Firm Name (EY, PwC, Deloitte, KPMG)  
 - **Response Variable:** Audit Effectiveness Score  
 - 🎯 *Purpose:* To isolate the effect of AI while accounting for firm-specific variations.
 
-### _🔶 Full Factorial Design (2×3)_
+### _Full Factorial Design (2×3)_
 - **Factors:**
   - AI Usage (Yes / No)
   - Workload Level (Low / Medium / High)
@@ -35,24 +35,24 @@ Using:
 
 ## _Why We Didn't Use Other Designs_
 
-### 🔸 Latin Square Design
+### _Latin Square Design_
 - Requires **two orthogonal blocking factors** (e.g., row and column).
 - Our dataset has only **one meaningful block** (Firm Name).
-- ➡️ **Not suitable** for our layout.
+- **Not suitable** for our layout.
 
-### 🔸 Balanced Incomplete Block Design (BIBD)
+### _Balanced Incomplete Block Design (BIBD)_
 - Intended for **incomplete treatment-block combinations**.
 - Our data is **fully observed** for all treatment levels and firms.
-- ➡️ **Not applicable** due to completeness.
+- **Not applicable** due to completeness.
 
 ---
 
 ## _📊 Visualizations_
 
-- 📈 _Boxplots:_ AI vs Audit Score, Firm vs Audit Score
-- 🔥 _Heatmap:_ Audit Score by AI × Firm
-- 📉 _Interaction Plot:_ AI × Workload vs Audit Score
-- 🧪 RCBD and Factorial ANOVA Tables with:
+- _Boxplots:_ AI vs Audit Score, Firm vs Audit Score
+- _Heatmap:_ Audit Score by AI × Firm
+- _Interaction Plot:_ AI × Workload vs Audit Score
+- _RCBD and Factorial ANOVA Tables with:_
   - Sum of Squares (SS)
   - Degrees of Freedom (DF)
   - Mean Squares (MS)
@@ -71,9 +71,7 @@ Using:
 - **Main Effect (Workload):** H₀ — No effect of workload  
 - **Interaction Effect:** H₀ — No interaction between AI and workload  
 
-✅ *All hypotheses are tested using manually calculated ANOVA tables and compared against F-critical values.*
+*All hypotheses are tested using manually calculated ANOVA tables and compared against F-critical values.*
 
 ---
-
-
 
