@@ -4,7 +4,7 @@
 
 ---
 
-## _🎯 Objective of the Study_
+## _Objective of the Study_
 
 To statistically assess:
 - The impact of **AI usage** in auditing across different firms.
@@ -16,20 +16,20 @@ Using:
 
 ---
 
-## _🔬 Experimental Designs Used_
+## _Experimental Designs Used_
 
 ### _Randomized Complete Block Design (RCBD)_
 - **Factor (Treatment):** AI Usage (Yes / No)  
 - **Blocking Factor:** Firm Name (EY, PwC, Deloitte, KPMG)  
 - **Response Variable:** Audit Effectiveness Score  
-- 🎯 *Purpose:* To isolate the effect of AI while accounting for firm-specific variations.
+- *Purpose:* To isolate the effect of AI while accounting for firm-specific variations.
 
 ### _Full Factorial Design (2×3)_
 - **Factors:**
   - AI Usage (Yes / No)
   - Workload Level (Low / Medium / High)
 - **Response Variable:** Audit Effectiveness Score  
-- 🎯 *Purpose:* To analyze **main effects** and **interaction effect** between AI and workload.
+- *Purpose:* To analyze **main effects** and **interaction effect** between AI and workload.
 
 ---
 
@@ -47,7 +47,7 @@ Using:
 
 ---
 
-## _📊 Visualizations_
+## _Visualizations_
 
 - _Boxplots:_ AI vs Audit Score, Firm vs Audit Score
 - _Heatmap:_ Audit Score by AI × Firm
@@ -60,7 +60,7 @@ Using:
 
 ---
 
-## _🧠 Hypothesis Testing_
+## _Hypothesis Testing_
 
 ### _RCBD_
 - **H₀:** AI usage has no significant impact on audit effectiveness.
